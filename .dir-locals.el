@@ -1,0 +1,10 @@
+((nil . ((tab-width . 2)))
+ (rjsx-mode . ((lsp-eslint-node-path . ".yarn/sdks")
+               (lsp-eslint-working-directories . ["./"])
+               (lsp-auto-fix-on-save . t)))
+ (typescript-mode . ((lsp-eslint-node-path . ".yarn/sdks")
+                     (lsp-eslint-working-directories . ["./"])
+                     (lsp-auto-fix-on-save . t)))
+ (typescript-mode
+  . ((eval . (let ((project-directory (car (dir-locals-find-file default-directory))))
+               (setq lsp-clients-typescript-server-args `("--tsserver-path" ,(concat project-directory ".yarn/sdks/typescript/bin/tsserver") "--stdio")))))))

@@ -1,0 +1,52 @@
+{
+	"name": "tanstack-table-example-store",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview",
+		"start": "vite",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@fontsource/roboto": "^5.2.5",
+		"@mui/icons-material": "^7.1.1",
+		"@mui/material": "^7.1.1",
+		"@tanstack/match-sorter-utils": "^8.19.4",
+		"@tanstack/react-table": "^8.21.3",
+		"@tanstack/table-core": "^8.21.3",
+		"babel-plugin-react-compiler": "19.1.0-rc.2",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"remeda": "^2.22.6",
+		"tiny-invariant": "^1.3.3",
+		"use-sync-external-store": "^1.5.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.28.0",
+		"@faker-js/faker": "^9.8.0",
+		"@tsconfig/strictest": "^2.0.5",
+		"@tsconfig/vite-react": "^6.3.5",
+		"@types/hoist-non-react-statics": "^3",
+		"@types/prop-types": "^15",
+		"@types/react": "^19.1.6",
+		"@types/react-dom": "^19.1.6",
+		"@types/react-is": "^19",
+		"@types/use-sync-external-store": "^1.5.0",
+		"@vitejs/plugin-react": "^4.5.1",
+		"eslint": "^9.28.0",
+		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-hooks": "6.0.0-rc.1",
+		"globals": "^16.2.0",
+		"prettier": "^3.5.3",
+		"typescript": "5.8.3",
+		"typescript-eslint": "^8.33.1",
+		"vite": "^6.3.5"
+	},
+	"packageManager": "yarn@4.9.2"
+}
